@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    '@nuxtjs/apollo',
+    '@nuxtjs/apollo','@nuxtjs/tailwindcss','@nuxt/image',
   ],
 
   apollo: {

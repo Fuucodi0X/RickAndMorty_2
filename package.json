@@ -15,6 +15,8 @@
     "vue-router": "^4.3.2"
   },
   "devDependencies": {
-    "@nuxtjs/apollo": "^5.0.0-alpha.14"
+    "@nuxt/image": "^1.7.0",
+    "@nuxtjs/apollo": "^5.0.0-alpha.14",
+    "@nuxtjs/tailwindcss": "^6.12.0"
   }
 }

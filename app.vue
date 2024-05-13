@@ -6,7 +6,7 @@
 
 <script setup>
 const qurery = gql`
-query Characters{
+query getCharacters{
   characters {
     results {
       name
