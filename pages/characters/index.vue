@@ -1,8 +1,9 @@
 <template>
-  <div class="">
+  <div class="flex flex-wrap">
     <CharacterCard v-for="{name, id, status, image, species, location} in data.characters.results"
     :key="id"
     :name="name"
+    :id="id"
     :status="status"
     :image="image"
     :species="species"
@@ -12,7 +13,6 @@
 </template>
 
 <script setup>
-import CharacterCard from './components/CharacterCard.vue';
 
 const qurery = gql`
 query getCharacters{
