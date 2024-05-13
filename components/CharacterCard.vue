@@ -1,0 +1,41 @@
+<script setup>
+const props = defineProps({
+    name:{
+        type: String,
+        required: true
+    },
+    id:{
+        type: String,
+        required: true
+    },
+    status:{
+        type: String,
+        required: true
+    },
+    image:{
+        type: String,
+        required: true
+    },
+    species:{
+        type: String,
+        required: true
+    },
+    location:{
+        type: String,
+        required: true
+    },
+    
+})
+</script>
+
+<template>
+    <div>
+        <NuxtImg :src="image"/>
+        <div>
+            <h3>{{ name }}</h3>
+            <h3>{{ status }}</h3>
+            <h3>{{ species }}</h3>
+            <h3>{{ location }}</h3>
+        </div>
+    </div>
+</template>
