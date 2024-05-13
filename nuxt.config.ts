@@ -6,10 +6,10 @@ export default defineNuxtConfig({
   ],
 
   apollo: {
-    clientConfigs: {
+    clients: {
       default: {
-        httpEndpoint: 'https://rickandmortyapi.com/graphql',
+        httpEndpoint: 'https://rickandmortyapi.com/graphql'
       }
-    }
-  }
+    },
+  },
 })

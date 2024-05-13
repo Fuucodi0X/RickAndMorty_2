@@ -1,2 +1,0 @@
-unable to add apollo
-incompatible with the current version
