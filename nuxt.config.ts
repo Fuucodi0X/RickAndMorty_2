@@ -14,6 +14,6 @@ export default defineNuxtConfig({
   },
 
   image: {
-    domains: ['rickandmortyapi.com/']
+    domains: ['rickandmortyapi.com']
   },
 })
