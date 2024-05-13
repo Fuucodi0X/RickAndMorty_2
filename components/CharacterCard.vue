@@ -30,7 +30,7 @@ const props = defineProps({
 
 <template>
     <div class="flex m-4 mr-4 bg-gray-300 rounded-xl">
-        <NuxtLink :to="`characters/${id}`">
+        <NuxtLink :to="`/characters/${id}`">
             <NuxtImg 
             :src="image"
             class="rounded-xl"
